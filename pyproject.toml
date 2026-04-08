@@ -1,0 +1,10 @@
+[project]
+name = "mcp-gold"
+version = "0.1.0"
+description = "MCP server for real-time gold prices from Vietnamese and international markets"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.27.0",
+]
